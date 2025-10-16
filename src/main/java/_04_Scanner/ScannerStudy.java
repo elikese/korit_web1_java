@@ -36,7 +36,9 @@ public class ScannerStudy {
         System.out.println(); // 줄바꿈용
         System.out.println("나이: " + age);
         System.out.println("이름: " + name);
+        System.out.println("이름: " + name);
 
         scanner.close(); // 스캐너 반납
+
     }
 }
