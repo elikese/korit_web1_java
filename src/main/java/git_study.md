@@ -20,3 +20,7 @@
 1. 본사 창고 주소를 등록한다(=원격 저장소 등록)
 git remote add origin 레포지토리주소(https://github.com/)  
 2. 최초 push시에만, git push -u origin main
+
+---
+다른 로컬에서 원격 레포지토리에 있는 코드를 다운로드하는 방법
+git clone 원격레포지토리주소

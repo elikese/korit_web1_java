@@ -34,8 +34,8 @@ public class Operator1 {
         System.out.println(num1 <= num2); // 이하
 
         // 실습1) 22시에서 50시간을 더하면 몇시인지 구하세요
-        int now = 22;
-        int after50hour = now + (50 % 24); // 괄호 -> 우선연산
+        int now = 23;
+        int after50hour = (now + 50) % 24; // 괄호 -> 우선연산
         System.out.println(after50hour);
 
         // 실습2) x개의 게시물이 있다.
