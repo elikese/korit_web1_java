@@ -71,6 +71,24 @@ public class StringMethod {
         System.out.println(str.contains("name")); // true
         System.out.println(str.contains("age")); // false
 
+        str = "We Study Java";
+        // 7. 특정 문자열이 어디서 시작하는지(index)를 찾기 // 결과값: int
+        System.out.println(str.indexOf("Study")); // index 3에서부터 시작함
+        System.out.println(str.indexOf("Python")); // 없으면 -1 가져온다.
+
+        // 8. 부분문자열 추출 // 결과값: String
+        // index 하나만 작성하면, 해당 index부터 끝까지 잘라옴
+        System.out.println(str.substring(3));
+        // index 두개를 작성하면, index 3이상 ~ 8미만 잘라옴
+        System.out.println(str.substring(3, 8));
+
+        // 예제) "Java"를 추출
+        // 1. "Java"가 있는지 확인
+        System.out.println(str.contains("Java")); // 있는지 확인
+        // 2. "Java"의 위치를 찾는다.
+        int indexOfJava = str.indexOf("Java");
+        // 3. 잘라오자!
+        System.out.println(str.substring(indexOfJava));
 
     }
 }
