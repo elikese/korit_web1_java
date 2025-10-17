@@ -7,6 +7,7 @@ public class ScannerStudy {
         // 스캐너 - 외부(키보드)로 부터 데이터를 받아오는 "객체"
         // 스캐너 객체생성(우변에 있는 new) / scanner라는 변수에 대입
         // 지금은 외우고 사용.
+        // 스캐너의 데이터타입 -> Scanner
         Scanner scanner = new Scanner(System.in);
 
         // 문자열 입력받기
