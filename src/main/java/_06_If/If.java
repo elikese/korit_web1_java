@@ -44,7 +44,8 @@ public class If {
 
         if (!isLogin) { // 로그인 안되었을 때 실행
             System.out.println("로그인이 필요합니다.");
-        } else if (isBanned) { // 로그인 되었다고 가정하고 실행해야함
+        } else if (isBanned) { // !isLogin -> false -> isLogin: true
+            // 로그인 되었다고 가정하고 실행해야함
             System.out.println("정지된 계정입니다.");
         }
 
@@ -57,7 +58,7 @@ public class If {
         boolean isGOLD = true;
         boolean isSILVER = false;
 
-
+        // github.com/elikese
 
 
 
