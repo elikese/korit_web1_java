@@ -40,5 +40,9 @@ public class TypeCasting {
         double d = Double.parseDouble("34.44");
         System.out.println(d + 0.1);
 
+
+
+
+
     }
 }
