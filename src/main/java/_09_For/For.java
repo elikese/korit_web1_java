@@ -35,12 +35,29 @@ public class For {
         System.out.println(sum);
         
         // 1~100 숫자들 중 짝수합, 홀수합을 반복문을 통해 구해주세요
-        int evenSum; // 짝수합
-        int oddSum; // 홀수합
+        int evenSum = 0; // 짝수합
+        int oddSum = 0; // 홀수합
+
+        for(int i = 1; i <= 100; i++) {
+            if (i % 2 == 0) { // 짝수일 때
+                evenSum += i;
+            } else { // 짝수가 아닐때 -> 홀수일 때
+                oddSum += i;
+            }
+        }
 
         // 1~100 숫자 중 3의배수와 7의배수의 갯수를 구해주세요
-        int count3; // 3의배수 갯수
-        int count7; // 7의배수 갯수
+        int count3 = 0; // 3의배수 갯수
+        int count7 = 0; // 7의배수 갯수
+
+        for (int i = 1; i <= 100; i++) {
+            if(i % 3 == 0) {
+                count3++;
+            }
+            if(i % 7 == 0) {
+                count7++;
+            }
+        }
         
 
 
