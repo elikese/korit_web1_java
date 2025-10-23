@@ -13,9 +13,9 @@ public class Variable {
         // ram에 데이터를 저장하는 행위
 
         // 변수 선언(빈 박스를 만들었다)
-        // 변수 선언(ram 메모리주소를 지정했다)
+        // 변수 선언(ram 메모리주소(stack)를 지정했다)
         // 자료형 변수명
-        String greeting; 
+        String greeting;
         
         // 변수 초기화
         // "="은 같다는 의미가 아니다.
