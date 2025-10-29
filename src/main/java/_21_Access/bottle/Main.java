@@ -18,5 +18,20 @@ public class Main {
             - int getCurrentWater()
                 -> 현재 물의 양 리턴
         */
+
+        WaterBottle waterBottle = new WaterBottle(0);
+
+        waterBottle.fill(500);
+        waterBottle.fill(800);
+        waterBottle.drink(400);
+        waterBottle.drink(800);
+        waterBottle.fill(-10);
+        waterBottle.drink(-10);
+
+        System.out.println(waterBottle.getCurrentWater());
+        // 클래스의 필드는 private로 선언
+        // 변경은 public 메서드로!(메서드에는 검증코드가 있다)
+
+
     }
 }
