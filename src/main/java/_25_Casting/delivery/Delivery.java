@@ -1,5 +1,6 @@
 package _25_Casting.delivery;
 
+// 부모클래스
 public class Delivery {
     protected int distance; // 배송거리
     protected int weight; // 배송물무게

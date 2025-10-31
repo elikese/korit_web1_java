@@ -5,7 +5,7 @@ public class Main {
         // 업캐스팅 상태로 생성
         Delivery d1 = new Normal(10, 5); // 업캐스팅
         Delivery d2 = new Fast(10, 5); // 업캐스팅
-        Delivery d3 = new Slow(10, 5);
+        Delivery d3 = new Slow(10, 5); // 업캐스팅
 
         Delivery[] dList = {d1, d2, d3};
 
