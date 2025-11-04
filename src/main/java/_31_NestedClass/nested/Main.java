@@ -27,5 +27,23 @@ public class Main {
                 .email("java@naver.com") // 생성한 Builder 객체에 set
                 .build(); // set해준 Builder 객체의 필드를 그대로 member 객체로 이동시켜 생성
 
+        // 내부 클래스를 참조하기 위해 바깥 User 객체를 생성
+        User user1 = new User.Builder() 
+                .username("사용자1")
+                .name("홍길동")
+                .address("부산시")
+                .email("java@naver.com")
+                .build();
+
+        LombokUser lombokUser = LombokUser
+                .builder()
+                .username("자바맨")
+                .name("김길동")
+                .email("java@naver.com")
+                .address("부산시")
+                .build();
+
+        // 롬복이 알아서 만들어준 toString()
+        System.out.println(lombokUser);
     }
 }
