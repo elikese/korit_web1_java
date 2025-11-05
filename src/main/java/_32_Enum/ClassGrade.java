@@ -15,6 +15,7 @@ public class ClassGrade {
     // ClassGrade - 등급에 따라 할인율을 차등적용
     private int discountRate;
 
+    // 객체를 클래스내부에 상수처럼 생성해놓고 읽어오는 방식.
     public static final ClassGrade BASIC = new ClassGrade(5);
     public static final ClassGrade GOLD = new ClassGrade(10);
     public static final ClassGrade DIAMOND = new ClassGrade(20);
@@ -23,4 +24,10 @@ public class ClassGrade {
     private ClassGrade(int discountRate) {
         this.discountRate = discountRate;
     }
+
+    public int getDiscountRate() {
+        return discountRate;
+    }
+
+
 }
