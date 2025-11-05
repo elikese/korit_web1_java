@@ -33,7 +33,8 @@ public class Student {
         // false면 if 문 실행
         if(!korValidation || !engValidation || !mathValidation) {
             System.out.println("점수는 0~100 이어야합니다.");
-            return; // 원래라면 정의한 에러를 일으켜야한다.
+            return; // 원래라면 우리가 정의한 커스텀에러를 throw 해줘야한다.
+            // throw new InvalidStudentException("점수는 0~100 이어야 합니다.")
         }
 
         this.name = name;
