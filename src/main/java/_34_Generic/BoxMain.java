@@ -25,5 +25,6 @@ public class BoxMain {
         Box2<String> stringBox = new Box2<String>("문자열데이터");
         Box2<Integer> integerBox = new Box2<Integer>(10);
 
+
     }
 }
