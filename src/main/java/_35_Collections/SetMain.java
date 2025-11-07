@@ -77,7 +77,5 @@ public class SetMain {
         }
         System.out.println("결과: " + uniques);
 
-
-
     }
 }
