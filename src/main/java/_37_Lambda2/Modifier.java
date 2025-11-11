@@ -1,4 +1,4 @@
-package _37_lambda2;
+package _37_Lambda2;
 
 // 제네릭
 @FunctionalInterface

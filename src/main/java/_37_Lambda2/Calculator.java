@@ -1,4 +1,4 @@
-package _37_lambda2;
+package _37_Lambda2;
 
 // @FunctionalInterface : 컴파일러가 함수 하나만 선언되었는지 검사
 @FunctionalInterface

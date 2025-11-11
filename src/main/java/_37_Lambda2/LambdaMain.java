@@ -1,4 +1,4 @@
-package _37_lambda2;
+package _37_Lambda2;
 
 import java.util.ArrayList;
 import java.util.List;
